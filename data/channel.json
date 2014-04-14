@@ -1,0 +1,779 @@
+[
+{
+  "id": 5,
+  "cate_code": 0,
+  "name": "首页",
+  "status": 1,
+  "cate_api": "",
+  "sort": "",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/home.png",
+  "high_icon": "http://img.itc.cn/mtv/138423914975259347.png",
+  "layout": 1,
+  "cid": 0,
+  "common_cate": [],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091618000,
+  "v3_cate_api": "",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=0"
+},
+{
+  "id": 1,
+  "cate_code": 100,
+  "name": "电影",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/movie.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/movie.png",
+  "high_icon": "http://img.itc.cn/mtv/1384249233889202.png",
+  "layout": 2,
+  "cid": 1,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "美国",
+    "searchKey": "12"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "风月",
+    "searchKey": "100107"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "爱情",
+    "searchKey": "100100_100107_100122"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "喜剧",
+    "searchKey": "100102"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "动作",
+    "searchKey": "100106_100116"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "日本",
+    "searchKey": "3"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "科幻",
+    "searchKey": "100103_100111"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "韩国",
+    "searchKey": "4"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091524000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/movie/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=100"
+},
+{
+  "id": 2,
+  "cate_code": 101,
+  "name": "电视剧",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/teleplay.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/tv.png",
+  "high_icon": "http://img.itc.cn/mtv/138423940625042444.png",
+  "layout": 1,
+  "cid": 2,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "美剧",
+    "searchKey": "9"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "韩剧",
+    "searchKey": "8"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "内地",
+    "searchKey": "5"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "英剧",
+    "searchKey": "10"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "战争",
+    "searchKey": "101109_101122_101120"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "古装",
+    "searchKey": "101106_101105"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "偶像",
+    "searchKey": "101100"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "喜剧",
+    "searchKey": "101111"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091524000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/teleplay/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=101"
+},
+{
+  "id": 10,
+  "cate_code": 105,
+  "name": "原创",
+  "status": 1,
+  "cate_api": "",
+  "sort": "",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/original.png",
+  "high_icon": null,
+  "layout": 1,
+  "cid": 6,
+  "common_cate": null,
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091618000,
+  "v3_cate_api": "",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=105"
+},
+{
+  "id": 3,
+  "cate_code": 106,
+  "name": "综艺",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/zongyi.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/entertainment.png",
+  "high_icon": "http://img.itc.cn/mtv/138424928764339139.png",
+  "layout": 1,
+  "cid": 7,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "港台",
+    "searchKey": "14"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "内地",
+    "searchKey": "5"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "交友",
+    "searchKey": "106104"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "选秀",
+    "searchKey": "106105"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "音乐",
+    "searchKey": "106106_106103_106111"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "时尚",
+    "searchKey": "106101"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "曲艺",
+    "searchKey": "106107"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "游戏竞技",
+    "searchKey": "106102"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类别",
+    "cateValue": "KTV",
+    "searchKey": "106103"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/zongyi/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=106"
+},
+{
+  "id": 4,
+  "cate_code": 107,
+  "name": "纪录片",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/documentary.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/newsreel.png",
+  "high_icon": "http://img.itc.cn/mtv/138424937769288257.png",
+  "layout": 1,
+  "cid": 8,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "全部",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "自然",
+    "searchKey": "107102"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "历史",
+    "searchKey": "107101"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "军事",
+    "searchKey": "107103"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "人物",
+    "searchKey": "107100"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "社会",
+    "searchKey": "107104"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "幕后",
+    "searchKey": "107105"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "财经",
+    "searchKey": "107106"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "搜狐视频大视野",
+    "searchKey": "107107"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "旅游",
+    "searchKey": "107109"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "文化",
+    "searchKey": "107111"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/documentary/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=107"
+},
+{
+  "id": 17,
+  "cate_code": 112,
+  "name": "娱乐",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/yule.json?",
+  "sort": "",
+  "icon": "http://img.itc.cn/mtv/138389757613924242.png",
+  "high_icon": "http://img.itc.cn/mtv/138424941365234598.png",
+  "layout": 1,
+  "cid": 13,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "全部",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "电影",
+    "searchKey": "112100"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "电视",
+    "searchKey": "112101"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "音乐",
+    "searchKey": "112102"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "明星",
+    "searchKey": "112103"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "戏剧",
+    "searchKey": "112202"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "动漫",
+    "searchKey": "112201"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/category/yule.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=112"
+},
+{
+  "id": 8,
+  "cate_code": 115,
+  "name": "动漫",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/animation.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/commic.png",
+  "high_icon": "http://img.itc.cn/mtv/138424938755989923.png",
+  "layout": 2,
+  "cid": 16,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "搞笑",
+    "searchKey": "115101"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "青春",
+    "searchKey": "115111_115131_115129"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "日本",
+    "searchKey": "2"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "真人",
+    "searchKey": "115113"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "悬疑",
+    "searchKey": "115112_115110"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "励志",
+    "searchKey": "115105"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "冒险",
+    "searchKey": "115103"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091942000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/animation/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=115"
+},
+{
+  "id": 16,
+  "cate_code": 119,
+  "name": "教育",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/education.json?",
+  "sort": "",
+  "icon": "",
+  "high_icon": null,
+  "layout": 1,
+  "cid": 21,
+  "common_cate": [],
+  "update_user": "bryanniu@sohu-inc.com",
+  "update_time": 1384939953000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/education/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=119"
+},
+{
+  "id": 15,
+  "cate_code": 121,
+  "name": "音乐",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/music.json?",
+  "sort": "",
+  "icon": "http://img.itc.cn/mtv/138389754734743918.png",
+  "high_icon": "http://img.itc.cn/mtv/138424940227130443.png",
+  "layout": 1,
+  "cid": 24,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "style",
+    "cateName": "风格",
+    "cateValue": "摇滚",
+    "searchKey": "2"
+  },
+  {
+    "cateAlias": "style",
+    "cateName": "风格",
+    "cateValue": "流行",
+    "searchKey": "1"
+  },
+  {
+    "cateAlias": "style",
+    "cateName": "风格",
+    "cateValue": "说唱",
+    "searchKey": "3"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "欧美",
+    "searchKey": "13"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "内地",
+    "searchKey": "5"
+  },
+  {
+    "cateAlias": "area",
+    "cateName": "地区",
+    "cateValue": "港台",
+    "searchKey": "14"
+  },
+  {
+    "cateAlias": "style",
+    "cateName": "风格",
+    "cateValue": "R&B",
+    "searchKey": "10"
+  },
+  {
+    "cateAlias": "style",
+    "cateName": "风格",
+    "cateValue": "乡村",
+    "searchKey": "9"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/music/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=121"
+},
+{
+  "id": 7,
+  "cate_code": 122,
+  "name": "新闻",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/news.json?",
+  "sort": "1,3,4",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/news.png",
+  "high_icon": "http://img.itc.cn/mtv/138424938161535034.png",
+  "layout": 1,
+  "cid": 1300,
+  "common_cate": [],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/news/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=122"
+},
+{
+  "id": 19,
+  "cate_code": 130,
+  "name": "星尚",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/xingshang.json?",
+  "sort": "",
+  "icon": "http://img.itc.cn/mtv/13842387235431213.png",
+  "high_icon": "http://img.itc.cn/mtv/138424940900035668.png",
+  "layout": 1,
+  "cid": 33,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "全部",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "明星",
+    "searchKey": "130113"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "资讯",
+    "searchKey": "130100"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "街拍",
+    "searchKey": "130102"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "潮品",
+    "searchKey": "130103"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "宣传片",
+    "searchKey": "130112"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "美妆",
+    "searchKey": "130104"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "品牌",
+    "searchKey": "130107"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "类型",
+    "cateValue": "自制",
+    "searchKey": "130111"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/category/xingshang.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=130"
+},
+{
+  "id": 11,
+  "cate_code": 131,
+  "name": "旅游",
+  "status": 0,
+  "cate_api": "",
+  "sort": "",
+  "icon": "",
+  "high_icon": null,
+  "layout": null,
+  "cid": 100,
+  "common_cate": null,
+  "update_user": "gangfengdong@sohu-inc.com",
+  "update_time": 1376548622000,
+  "v3_cate_api": "",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=131"
+},
+{
+  "id": 20,
+  "cate_code": 6272,
+  "name": "搜狐网新闻底级页",
+  "status": 1,
+  "cate_api": "",
+  "sort": "",
+  "icon": "",
+  "high_icon": null,
+  "layout": 1,
+  "cid": 6272,
+  "common_cate": null,
+  "update_user": "yanxinli@sohu-inc.com",
+  "update_time": 1366798397000,
+  "v3_cate_api": "",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=6272"
+},
+{
+  "id": 9,
+  "cate_code": 9001,
+  "name": "播客",
+  "status": 1,
+  "cate_api": "http://api.tv.sohu.com/boke/category.json?",
+  "sort": "1,3,4",
+  "icon": "",
+  "high_icon": null,
+  "layout": 1,
+  "cid": 9001,
+  "common_cate": null,
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091618000,
+  "v3_cate_api": "http://api.tv.sohu.com/boke/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=9001"
+},
+{
+  "id": 6,
+  "cate_code": 9002,
+  "name": "直播",
+  "status": 1,
+  "cate_api": "",
+  "sort": "",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/liveTV.png",
+  "high_icon": null,
+  "layout": 1,
+  "cid": 9002,
+  "common_cate": [],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=9002"
+},
+{
+  "id": 14,
+  "cate_code": 9003,
+  "name": "VIP",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/vip.json?",
+  "sort": "",
+  "icon": "http://tv.sohu.com/upload/static/stuff/iPad/vip.png",
+  "high_icon": "http://img.itc.cn/mtv/138424939961422986.png",
+  "layout": 2,
+  "cid": 9003,
+  "common_cate": [
+  {
+    "cateAlias": "",
+    "cateName": "全部",
+    "cateValue": "全部",
+    "searchKey": ""
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "分类",
+    "cateValue": "电影",
+    "searchKey": "1"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "分类",
+    "cateValue": "纪录片",
+    "searchKey": "8"
+  },
+  {
+    "cateAlias": "cat",
+    "cateName": "分类",
+    "cateValue": "电视剧",
+    "searchKey": "2"
+  },
+  {
+    "cateAlias": "o",
+    "cateName": "排序",
+    "cateValue": "最热门",
+    "searchKey": "3"
+  }
+  ],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/vip/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=9003"
+},
+{
+  "id": 18,
+  "cate_code": 9004,
+  "name": "搜狐出品",
+  "status": 1,
+  "cate_api": "http://dev.app.yule.sohu.com/v4/category/sohuproduce.json?",
+  "sort": "",
+  "icon": "http://tv.sohu.com/upload/clientapp/channelicon/movie.png",
+  "high_icon": "http://img.itc.cn/mtv/138424942000233700.png",
+  "layout": 1,
+  "cid": 9004,
+  "common_cate": [],
+  "update_user": "jieshen@sohu-inc.com",
+  "update_time": 1385091505000,
+  "v3_cate_api": "http://dev.app.yule.sohu.com/open_tv/sohuproduce/category.json?",
+  "child_url": "http://10.10.52.197:50500/channel_column/list.do?cate_code=9004"
+}
+]
