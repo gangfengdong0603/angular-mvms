@@ -9,3 +9,5 @@ release
 *.gz
 views/index.html
 .DS_Store
+public/partials/channelManage.html
+release/javascripts/release.js

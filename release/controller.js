@@ -504,7 +504,7 @@ angular.module('mvmsController', [])
       }, {cate_code: $routeParams.cate_code})
       .list(function(list) {
         $scope.list = list;
-        ListProvider('channels', true)
+        ListProvider('all_channels', true)
           .list(function(jumps) {
             $scope.jumps = jumps;
           })
