@@ -1,5 +1,3 @@
-
-111:wq
 ng@ubuntu:~/angular-mvms2.0$ 
 gangfengdong@ubuntu:~/angular-mvms2.0$ 
 gangfengdong@ubuntu:~/angular-mvms2.0$ git status -s
